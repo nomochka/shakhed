@@ -1,0 +1,6 @@
+{
+  "parent": "shakheddrones:item/drone_plane_3d",
+  "textures": {
+    "body": "shakheddrones:item/entity/fp-1/upper"
+  }
+}

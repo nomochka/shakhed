@@ -1,0 +1,12 @@
+{
+ "textures":{"skin":"shakheddrones:item/missile-system/flamingo","metal":"shakheddrones:item/missile-system/mechanical","particle":"shakheddrones:item/missile-system/flamingo"},
+ "display":{"gui":{"rotation":[20,45,0],"scale":[0.75,0.75,0.75]},"fixed":{"scale":[1.35,1.35,1.35]}},
+ "elements":[
+  {"from":[6.3,6.3,2],"to":[9.7,9.7,15],"faces":{"north":{"texture":"#skin"},"south":{"texture":"#metal"},"east":{"texture":"#skin"},"west":{"texture":"#skin"},"up":{"texture":"#skin"},"down":{"texture":"#skin"}}},
+  {"from":[6.8,6.8,0.8],"to":[9.2,9.2,2],"faces":{"north":{"texture":"#skin"},"south":{"texture":"#skin"},"east":{"texture":"#skin"},"west":{"texture":"#skin"},"up":{"texture":"#skin"},"down":{"texture":"#skin"}}},
+  {"from":[1,7.1,7],"to":[15,8.9,11],"faces":{"north":{"texture":"#skin"},"south":{"texture":"#skin"},"east":{"texture":"#skin"},"west":{"texture":"#skin"},"up":{"texture":"#skin"},"down":{"texture":"#skin"}}},
+  {"from":[3,7.3,12],"to":[13,8.7,14.5],"faces":{"north":{"texture":"#skin"},"south":{"texture":"#skin"},"east":{"texture":"#skin"},"west":{"texture":"#skin"},"up":{"texture":"#skin"},"down":{"texture":"#skin"}}},
+  {"from":[7.3,3,12],"to":[8.7,13,14.5],"faces":{"north":{"texture":"#skin"},"south":{"texture":"#skin"},"east":{"texture":"#skin"},"west":{"texture":"#skin"},"up":{"texture":"#skin"},"down":{"texture":"#skin"}}},
+  {"from":[6.6,6.6,14.7],"to":[9.4,9.4,16],"faces":{"north":{"texture":"#metal"},"south":{"texture":"#metal"},"east":{"texture":"#metal"},"west":{"texture":"#metal"},"up":{"texture":"#metal"},"down":{"texture":"#metal"}}}
+ ]
+}

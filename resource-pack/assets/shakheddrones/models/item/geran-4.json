@@ -1,0 +1,6 @@
+{
+  "parent": "shakheddrones:item/drone_delta_3d",
+  "textures": {
+    "body": "shakheddrones:item/entity/geran-4/upper"
+  }
+}

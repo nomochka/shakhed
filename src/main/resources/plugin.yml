@@ -1,0 +1,17 @@
+name: ShakhedDrones
+version: '${version}'
+main: ru.shakhed.drones.ShakhedDronesPlugin
+api-version: '1.21'
+author: nome
+description: Launchable combat drones for Paper 1.21.11
+commands:
+  drone:
+    description: Управление дронами
+    usage: /drone <give|reload|list>
+permissions:
+  shakheddrones.admin:
+    description: Выдача предметов и перезагрузка плагина
+    default: op
+  shakheddrones.use:
+    description: Установка и запуск дронов
+    default: true

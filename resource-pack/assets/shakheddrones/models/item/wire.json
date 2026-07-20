@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "shakheddrones:item/wire"
+  },
+  "display": {
+    "ground": { "rotation": [0, 0, 0], "translation": [0, 2, 0], "scale": [0.8, 0.8, 0.8] },
+    "fixed": { "rotation": [0, 0, 0], "translation": [0, 0, 0], "scale": [1.4, 1.4, 1.4] }
+  }
+}

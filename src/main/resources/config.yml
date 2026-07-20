@@ -1,0 +1,104 @@
+flight:
+  particles: true
+  break-blocks: true
+  explode-at-max-range: true
+  copter-steering: true
+  tnt-power-bonus: 1.5
+  max-tnt-per-drone: 4
+  max-tnt-per-copter: 3
+  dropped-tnt-fuse-ticks: 50
+  copter-idle-range-drain-per-tick: 0.01
+  altitude-fuel-per-block: 5.0
+  high-climb-threshold: 10.0
+  high-climb-extra-fuel-per-block: 2.5
+
+defense:
+  ew-radius: 45.0
+  ew-course-error: 0.08
+  ew-battery-capacity-seconds: 600
+  ew-idle-drain-per-second: 1
+  ew-max-wire-length: 32
+  radar-radius: 180.0
+  radar-alert-recipient-radius: 512.0
+  radar-alert-cooldown-seconds: 20
+  anti-air-range: 140.0
+  anti-air-damage: 6.0
+  anti-air-cooldown-ticks: 12
+  anti-air-missile-cooldown-ticks: 40
+  anti-air-crate-range: 4.0
+  bullet-crate-capacity: 500
+  missile-crate-capacity: 6
+  missile-damage: 16.0
+  missile-speed: 2.5
+  portable-ew-radius: 22.0
+  portable-ew-battery-seconds: 60
+  antipersonnel-radius: 9.0
+  antipersonnel-max-damage: 24.0
+  antipersonnel-explosion-multiplier: 0.45
+  device-direct-hit-radius: 2.25
+
+drones:
+  shakhed:
+    range: 1200.0
+    speed: 0.85
+    explosion-power: 10.0
+    health: 14.0
+  fp-1:
+    range: 800.0
+    speed: 0.65
+    explosion-power: 8.0
+    health: 12.0
+  geran-4:
+    range: 1600.0
+    speed: 1.10
+    explosion-power: 15.0
+    health: 16.0
+  jet:
+    range: 2000.0
+    speed: 2.10
+    explosion-power: 20.0
+    health: 20.0
+  copter:
+    range: 250.0
+    speed: 0.45
+    explosion-power: 3.0
+    health: 8.0
+
+messages:
+  prefix: "&8[&cДроны&8] &f"
+
+resource-pack:
+  enabled: true
+  required: true
+  http-port: 8123
+  public-url: ""
+
+missiles:
+  supply-range: 5.0
+  canister-fuel: 20.0
+  types:
+    flamingo:
+      range: 2500.0
+      speed: 1.1
+      explosion-power: 18.0
+      fuel: 3.0
+    oreshnik:
+      range: 3500.0
+      speed: 2.6
+      explosion-power: 48.0
+      fuel: 5.0
+    iskander:
+      range: 3000.0
+      speed: 2.3
+      explosion-power: 24.0
+      fuel: 8.0
+    loitering:
+      range: 1600.0
+      speed: 1.1
+      explosion-power: 12.0
+      fuel: 2.0
+  pro:
+    range: 180.0
+    hit-chance: 0.65
+    cooldown-ticks: 60
+    fuel-per-shot: 1.0

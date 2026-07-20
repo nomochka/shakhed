@@ -1,0 +1,6 @@
+{
+  "parent": "shakheddrones:item/launch_pad_3d",
+  "textures": {
+    "body": "shakheddrones:item/material/gunmetal"
+  }
+}
