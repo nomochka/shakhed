@@ -63,4 +63,5 @@
 
 ## Ресурспак
 
-Сборка создаёт `build/distributions/ShakhedDrones-resourcepack-0.2.0-SNAPSHOT.zip`. Плагин умеет раздавать встроенный пакет сам; после обновления используйте `/drone pack`. Для подключения не с локального компьютера задайте `resource-pack.public-url` в `config.yml`. Пак использует формат 75 для Minecraft 1.21.11.
+В разработке
+
