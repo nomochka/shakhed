@@ -1,6 +1,0 @@
-{
-  "parent": "shakheddrones:item/anti_air_3d",
-  "textures": {
-    "body": "shakheddrones:item/material/gunmetal"
-  }
-}

@@ -1,6 +1,0 @@
-{
-  "parent": "shakheddrones:item/ew_station_3d",
-  "textures": {
-    "body": "shakheddrones:item/material/olive_steel"
-  }
-}
